@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01047A651DD69998009E98B3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01047A641DD69998009E98B3 /* HomeViewController.swift */; };
+		01047A671DD699B8009E98B3 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01047A661DD699B8009E98B3 /* SearchViewController.swift */; };
+		01047A691DD699CC009E98B3 /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01047A681DD699CC009E98B3 /* ComposeViewController.swift */; };
+		01047A6B1DD699DB009E98B3 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01047A6A1DD699DB009E98B3 /* AccountViewController.swift */; };
+		01047A6D1DD699E7009E98B3 /* TrendingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01047A6C1DD699E7009E98B3 /* TrendingViewController.swift */; };
+		01047A701DD6A510009E98B3 /* BaseTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01047A6E1DD6A510009E98B3 /* BaseTransition.swift */; };
+		01047A711DD6A510009E98B3 /* FadeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01047A6F1DD6A510009E98B3 /* FadeTransition.swift */; };
+		01047A731DD6A858009E98B3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01047A721DD6A858009E98B3 /* LoginViewController.swift */; };
 		01DB6AD31DC93B56008547C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DB6AD21DC93B56008547C3 /* AppDelegate.swift */; };
 		01DB6AD51DC93B56008547C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DB6AD41DC93B56008547C3 /* ViewController.swift */; };
 		01DB6AD81DC93B56008547C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01DB6AD61DC93B56008547C3 /* Main.storyboard */; };
@@ -34,6 +42,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01047A641DD69998009E98B3 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		01047A661DD699B8009E98B3 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		01047A681DD699CC009E98B3 /* ComposeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
+		01047A6A1DD699DB009E98B3 /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		01047A6C1DD699E7009E98B3 /* TrendingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrendingViewController.swift; sourceTree = "<group>"; };
+		01047A6E1DD6A510009E98B3 /* BaseTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTransition.swift; sourceTree = "<group>"; };
+		01047A6F1DD6A510009E98B3 /* FadeTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeTransition.swift; sourceTree = "<group>"; };
+		01047A721DD6A858009E98B3 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		01DB6ACF1DC93B56008547C3 /* Tumblr Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tumblr Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01DB6AD21DC93B56008547C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01DB6AD41DC93B56008547C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +119,14 @@
 				01DB6AD91DC93B56008547C3 /* Assets.xcassets */,
 				01DB6ADB1DC93B56008547C3 /* LaunchScreen.storyboard */,
 				01DB6ADE1DC93B56008547C3 /* Info.plist */,
+				01047A641DD69998009E98B3 /* HomeViewController.swift */,
+				01047A661DD699B8009E98B3 /* SearchViewController.swift */,
+				01047A681DD699CC009E98B3 /* ComposeViewController.swift */,
+				01047A6A1DD699DB009E98B3 /* AccountViewController.swift */,
+				01047A6C1DD699E7009E98B3 /* TrendingViewController.swift */,
+				01047A6E1DD6A510009E98B3 /* BaseTransition.swift */,
+				01047A6F1DD6A510009E98B3 /* FadeTransition.swift */,
+				01047A721DD6A858009E98B3 /* LoginViewController.swift */,
 			);
 			path = "Tumblr Clone";
 			sourceTree = "<group>";
@@ -262,8 +286,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01047A6D1DD699E7009E98B3 /* TrendingViewController.swift in Sources */,
+				01047A711DD6A510009E98B3 /* FadeTransition.swift in Sources */,
+				01047A691DD699CC009E98B3 /* ComposeViewController.swift in Sources */,
 				01DB6AD51DC93B56008547C3 /* ViewController.swift in Sources */,
+				01047A6B1DD699DB009E98B3 /* AccountViewController.swift in Sources */,
 				01DB6AD31DC93B56008547C3 /* AppDelegate.swift in Sources */,
+				01047A701DD6A510009E98B3 /* BaseTransition.swift in Sources */,
+				01047A671DD699B8009E98B3 /* SearchViewController.swift in Sources */,
+				01047A731DD6A858009E98B3 /* LoginViewController.swift in Sources */,
+				01047A651DD69998009E98B3 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -512,6 +544,7 @@
 				01DB6AF91DC93B56008547C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		01DB6AFA1DC93B56008547C3 /* Build configuration list for PBXNativeTarget "Tumblr CloneTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +553,7 @@
 				01DB6AFC1DC93B56008547C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		01DB6AFD1DC93B56008547C3 /* Build configuration list for PBXNativeTarget "Tumblr CloneUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +562,7 @@
 				01DB6AFF1DC93B56008547C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
