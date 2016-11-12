@@ -21,7 +21,7 @@ Time spent: `4`
 
 Here's a walkthrough of implemented user stories:
 
-<img src='' title='Tumblr Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/chrisarg0/CodepathTumblrClone/blob/master/TumblrClone.gif' title='Tumblr Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
